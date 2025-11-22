@@ -99,12 +99,14 @@
 .contacts:focus {
     color: #404bbf;
 }
-.section-title-container {
+.container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
     display: flex;
     height: fit-content;
+    flex-direction: column;
+    height: 312px;
     }
 .section-title {
     background-color: #2e2f42;
@@ -156,14 +158,6 @@ button {
 .button:focus {
     background-color: #404BBF;
 }
-.section-about-container{
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-    }
 .section-about {
     background-color: #FFFFFF;
     height: 344px;
@@ -211,14 +205,6 @@ letter-spacing: 0.02em;
 color: #434455 ;
 text-align: center;
     }
-.section-our-team-container{
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-}
 .section-our-team {
     background-color: #f4f4fd;
     justify-content: first baseline;
@@ -297,14 +283,6 @@ text-align: center;
         height: 56px;
         padding: 32px 0 32px;
 }
-.section-our-portfolio-container{
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-}
 .section-our-portfolio{
     background-color: #FFFFFF;
     padding: 120px 0 120px 0;
@@ -345,13 +323,6 @@ text-align: center;
 }
 .footer {
     background:#2e2f42;
-}
-.footer-container {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
-    display: flex;
-    height: 312px;
 }
 .footer-box {
     width: 264px;
