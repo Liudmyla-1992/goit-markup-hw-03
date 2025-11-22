@@ -169,7 +169,7 @@ button {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 40px;
+    gap: 24px;
     width: 1128px;
     height: 104px;
     list-style-type: none;
@@ -181,10 +181,9 @@ button {
     justify-content: flex-start;
     flex-direction: column;
     gap: 8px;
-    width: calc(100%-72px/4);
+    width: calc((100% - 72px) / 4);
     height: 104px; 
     margin-top: 120px;
-    gap: 24px;
         }
 .title-three {
     font-family: "Roboto", sans-serif;
@@ -263,7 +262,7 @@ text-align: center;
     border-radius: 0 0 4px 4px;
     padding-block: 0px 32px;
     padding-inline: 0px;
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 3 * 24px) / 4)
     height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     display: flex;
@@ -294,7 +293,6 @@ text-align: center;
         column-gap: 24px;
         row-gap: 48px;
         list-style-type: none;
-        width: calc((100% - 48px) / 3);
         margin: 0 auto;
         padding: 0;
         padding-bottom: 120px;
@@ -306,6 +304,7 @@ text-align: center;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        width: calc((100% - 48px) / 3);
      }
 .portfolio-div {
         display: flex;
@@ -323,11 +322,7 @@ text-align: center;
 }
 .footer {
     background:#2e2f42;
-}
-.footer-box {
-    width: 264px;
-    height: 112px;
-    padding: 100px 0 100px
+    padding: 100px 0 100px;
 }
 .footer-logo-web {
     font-family: "Raleway", sans-serif;
