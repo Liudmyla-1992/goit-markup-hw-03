@@ -175,7 +175,7 @@ button {
     margin: 0 auto;
     }
 .about-box {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -246,7 +246,7 @@ text-align: center;
         justify-content: center;
         flex-direction: row;
         gap: 24px;
-        width: calc(100% - 72px / 4);
+        width: calc((100% - 72px) / 4);
         height: 104px;
         list-style-type: none;
         padding-bottom: 120px;
@@ -323,10 +323,7 @@ text-align: center;
     padding: 100px 0 100px;
     text-align: center;
     }
-a {
-        text-decoration: none;
-        display: inline-block;
-        }
+a { display: inline-block; }
 .footer-logo-web {
         font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -335,7 +332,6 @@ a {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none;
-        display: inline-block;
         margin-bottom: 16px;
         color: #4D5AE5;
           }
@@ -347,7 +343,6 @@ a {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none;
-        display: inline-block;
         margin-bottom: 16px;
         color: #f4f4fd;
         }
