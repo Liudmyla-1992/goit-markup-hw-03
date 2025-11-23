@@ -172,9 +172,9 @@ button {
     height: 104px;
     list-style-type: none;
     margin: 0 auto;
+    width: calc(100%-72px/4);
     }
 .about-box {
-    width: calc(100%-72px/4);
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
