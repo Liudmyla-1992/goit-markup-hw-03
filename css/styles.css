@@ -21,9 +21,7 @@ h1,h2,h3,h4,h5,h6,p {
 .header {
         border-bottom: 1px solid #e7e9fc;
         background-color: #FFFFFF;
-        padding-top: 24px;
-        padding-bottom: 24px;
-    }
+}
 .header-container{
     display: flex;
     align-items: center;
@@ -60,9 +58,9 @@ h1,h2,h3,h4,h5,h6,p {
     display: flex;
     gap: 40px;
     align-items: center;
-}
+    }
 .nav-li {
-     
+    display: flex;
 }
 .nav-page {
     font-family: "Roboto", sans-serif;
@@ -138,6 +136,7 @@ h1,h2,h3,h4,h5,h6,p {
         text-align: center;
         margin: 0 auto;
         white-space: normal;
+        max-width: 496px;
         }
 button {
         display: inline-block;
@@ -202,7 +201,7 @@ button {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    text-align: center;
+    text-align: left;
     }
 .about-text {
 font-family: "Roboto", sans-serif;
@@ -211,7 +210,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455 ;
-text-align: center;
+text-align: left;
     }
 .section-our-team {
     background-color: #f4f4fd;
@@ -293,6 +292,19 @@ text-align: center;
 .section-our-portfolio{
     background-color: #FFFFFF;
     padding: 120px 0 120px 0;
+    }
+.portfolio-div{
+    padding: 32px 16px;
+    border-bottom: 1px solid #e7e9fc;;
+    border-left: 1px solid #e7e9fc;;
+    border-right: 1px solid #e7e9fc;;
+    width: 360px;
+    height: 120px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
     }
 .our-portfolio-list{
         display: flex;
