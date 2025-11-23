@@ -177,7 +177,6 @@ button {
 .about-box {
     flex-basis: calc((100% - 3 * 24px) / 4);
     display: flex;
-    align-items: center;
     justify-content: flex-start;
     flex-direction: column;
     gap: 8px;
@@ -322,17 +321,18 @@ text-align: center;
 .footer {
     background:#2e2f42;
     padding: 100px 0 100px;
-}
+    text-align: center;
+    }
 .footer-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: inline-block;
-    margin-bottom: 16px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 .footer-logo-web {
         color: #4D5AE5;
