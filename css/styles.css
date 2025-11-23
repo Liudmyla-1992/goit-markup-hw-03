@@ -165,16 +165,10 @@ button {
     }
 .about-list {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
     gap: 24px;
     height: 104px;
     list-style-type: none;
     margin: 0 auto;
-    width: calc(100%-72px/4);
-    padding-left: 156px;
-    padding-right: 156px;
     }
 .about-box {
     display: flex;
