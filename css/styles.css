@@ -174,6 +174,7 @@ button {
     height: 104px;
     list-style-type: none;
     margin: 0 auto;
+    width: calc((100% - 72px) / 4);
      }
 .about-box {
     display: flex;
@@ -181,7 +182,6 @@ button {
     justify-content: flex-start;
     flex-direction: column;
     gap: 8px;
-    width: calc((100% - 72px) / 4);
     height: 104px; 
     margin-top: 120px;
         }
@@ -335,7 +335,7 @@ text-align: center;
     text-decoration: none;
     display: inline-block;
     margin-bottom: 16px;
-    }
+        }
 .footer-logo-studio {
         font-weight: 700;
         font-size: 18px;
@@ -344,10 +344,11 @@ text-align: center;
         text-transform: uppercase;
         color: #f4f4fd;
         font-family: "Raleway", sans-serif;
+        display: inline-block;
     }
 .footer-text {
     font-weight: 400;
-    font-size: 16px;
+     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
